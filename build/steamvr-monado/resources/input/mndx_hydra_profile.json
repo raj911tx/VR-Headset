@@ -1,0 +1,97 @@
+{
+  "json_id": "input_profile",
+  "controller_type": "monado_mndx_hydra",
+  "device_class": "TrackedDeviceClass_Controller",
+  "resource_root": "steamvr-monado",
+  "driver_name": "monado",
+  "input_bindingui_mode": "controller_handed",
+  "should_show_binidng_errors": true,
+  "input_bindingui_left": {
+    "image": "{indexcontroller}/icons/indexcontroller_left.svg"
+  },
+  "input_bindingui_right": {
+    "image": "{indexcontroller}/icons/indexcontroller_right.svg"
+  },
+  "input_source": {
+    "/input/1": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 9,
+      "click": true,
+      "touch": false
+    },
+    "/input/2": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 10,
+      "click": true,
+      "touch": false
+    },
+    "/input/3": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 11,
+      "click": true,
+      "touch": false
+    },
+    "/input/4": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 12,
+      "click": true,
+      "touch": false
+    },
+    "/input/bumper": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 13,
+      "click": true,
+      "touch": false
+    },
+    "/input/thumbstick": {
+      "type": "joystick",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 15,
+      "click": true,
+      "touch": false
+    },
+    "/input/trigger": {
+      "type": "trigger",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 16,
+      "click": false,
+      "touch": false,
+      "value": true,
+      "force": false
+    },
+    "/pose/grip": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 17
+    }
+  }
+}

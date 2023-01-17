@@ -1,0 +1,149 @@
+{
+  "json_id": "input_profile",
+  "controller_type": "monado_mndx_ball_on_a_stick_controller",
+  "device_class": "TrackedDeviceClass_Controller",
+  "resource_root": "steamvr-monado",
+  "driver_name": "monado",
+  "input_bindingui_mode": "controller_handed",
+  "should_show_binidng_errors": true,
+  "input_bindingui_left": {
+    "image": "{indexcontroller}/icons/indexcontroller_left.svg"
+  },
+  "input_bindingui_right": {
+    "image": "{indexcontroller}/icons/indexcontroller_right.svg"
+  },
+  "input_source": {
+    "/input/system": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 14,
+      "click": true,
+      "touch": false
+    },
+    "/input/menu": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 15,
+      "click": true,
+      "touch": false
+    },
+    "/input/start": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 16,
+      "click": true,
+      "touch": false
+    },
+    "/input/select": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 17,
+      "click": true,
+      "touch": false
+    },
+    "/input/square_mndx": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 18,
+      "click": true,
+      "touch": false
+    },
+    "/input/cross_mndx": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 19,
+      "click": true,
+      "touch": false
+    },
+    "/input/circle_mndx": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 20,
+      "click": true,
+      "touch": false
+    },
+    "/input/triangle_mndx": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 21,
+      "click": true,
+      "touch": false
+    },
+    "/input/trigger": {
+      "type": "trigger",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 22,
+      "click": false,
+      "touch": false,
+      "value": true,
+      "force": false
+    },
+    "/pose/grip": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 23
+    },
+    "/pose/ball_mndx": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 24
+    },
+    "/pose/body_center_mndx": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 25
+    },
+    "/pose/aim": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 26
+    },
+    "/output/haptic": {
+      "type": "vibration",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 27
+    }
+  }
+}

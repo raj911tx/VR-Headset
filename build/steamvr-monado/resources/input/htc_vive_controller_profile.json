@@ -1,0 +1,91 @@
+{
+  "json_id": "input_profile",
+  "controller_type": "monado_htc_vive_controller",
+  "device_class": "TrackedDeviceClass_Controller",
+  "resource_root": "steamvr-monado",
+  "driver_name": "monado",
+  "input_bindingui_mode": "controller_handed",
+  "should_show_binidng_errors": true,
+  "input_bindingui_left": {
+    "image": "{indexcontroller}/icons/indexcontroller_left.svg"
+  },
+  "input_bindingui_right": {
+    "image": "{indexcontroller}/icons/indexcontroller_right.svg"
+  },
+  "input_source": {
+    "/input/system": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 11,
+      "click": true,
+      "touch": false
+    },
+    "/input/squeeze": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 12,
+      "click": true,
+      "touch": false
+    },
+    "/input/menu": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 13,
+      "click": true,
+      "touch": false
+    },
+    "/input/trigger": {
+      "type": "trigger",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 15,
+      "click": true,
+      "touch": false,
+      "value": true,
+      "force": false
+    },
+    "/input/trackpad": {
+      "type": "trackpad",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 18
+    },
+    "/pose/grip": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 19
+    },
+    "/pose/aim": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 20
+    },
+    "/output/haptic": {
+      "type": "vibration",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 21
+    }
+  }
+}

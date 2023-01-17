@@ -1,0 +1,145 @@
+{
+  "json_id": "input_profile",
+  "controller_type": "monado_oculus_touch_controller",
+  "device_class": "TrackedDeviceClass_Controller",
+  "resource_root": "steamvr-monado",
+  "driver_name": "monado",
+  "input_bindingui_mode": "controller_handed",
+  "should_show_binidng_errors": true,
+  "input_bindingui_left": {
+    "image": "{indexcontroller}/icons/indexcontroller_left.svg"
+  },
+  "input_bindingui_right": {
+    "image": "{indexcontroller}/icons/indexcontroller_right.svg"
+  },
+  "input_source": {
+    "/input/x": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 1,
+      "click": true,
+      "touch": true
+    },
+    "/input/y": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 3,
+      "click": true,
+      "touch": true
+    },
+    "/input/menu": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 4,
+      "click": true,
+      "touch": false
+    },
+    "/input/squeeze": {
+      "type": "trigger",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 20,
+      "click": false,
+      "touch": false,
+      "value": true,
+      "force": false
+    },
+    "/input/trigger": {
+      "type": "trigger",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 22,
+      "click": false,
+      "touch": true,
+      "value": true,
+      "force": false
+    },
+    "/input/thumbstick": {
+      "type": "joystick",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 25,
+      "click": true,
+      "touch": true
+    },
+    "/input/thumbrest": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 26,
+      "click": false,
+      "touch": true
+    },
+    "/pose/grip": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 27
+    },
+    "/pose/aim": {
+      "type": "pose",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 28
+    },
+    "/output/haptic": {
+      "type": "vibration",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 29
+    },
+    "/input/a": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 16,
+      "click": true,
+      "touch": true
+    },
+    "/input/b": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 18,
+      "click": true,
+      "touch": true
+    },
+    "/input/system": {
+      "type": "button",
+      "binding_image_point": [
+        0,
+        0
+      ],
+      "order": 19,
+      "click": true,
+      "touch": false
+    }
+  }
+}
